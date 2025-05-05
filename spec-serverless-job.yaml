@@ -49,15 +49,15 @@ services:
         sensitive: true
         required: true
       - key: action
-         description: Action
-         name: ACTION
-         type: String
-         modifiable: true
-         required: false
-         defaultValue: deploy
-         options:
-           - deploy
-           - remove
+        description: Action
+        name: ACTION
+        type: String
+        modifiable: true
+        required: false
+        defaultValue: deploy
+        options:
+          - deploy
+          - remove
 
 x-omnistrate-image-registry-attributes:
   ghcr.io:
