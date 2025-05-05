@@ -12,8 +12,8 @@ services:
         aws:
           terraformPath: /terraform
           gitConfiguration:
-            reference: refs/tags/1.0
-            repositoryUrl: https://github.com/nolanjmccafferty/serverless-framework.git
+            reference: refs/tags/1.1
+            repositoryUrl: https://github.com/omnistrate-community/serverless-framework.git
           terraformExecutionIdentity: "arn:aws:iam::541226919566:role/omnistrate-ideabox-demo-terraform"
     apiParameters:
       - key: serverless_service_name
