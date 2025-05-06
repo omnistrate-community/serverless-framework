@@ -10,7 +10,7 @@ Omnistrate CLI installed and configured. See [Omnistrate CLI Installation](https
 Create the Serverless Deployer service template using the `spec-serverless-job.yaml` file. This file contains the configuration for the Serverless Deployer job that will create the specified Lambda and API Gateway resources.
 
 ```
-omctl build-from-repo -f spec-serverless-job.yaml --service-name 'Serverless Deployer
+omctl build-from-repo -f spec-serverless-job.yaml --service-name 'Serverless Deployer'
 ```
 
 This command packages the Serverless Framework deployer image and uploads it to your GitHub Container Registry as part of the service build process.
